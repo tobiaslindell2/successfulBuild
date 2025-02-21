@@ -1,0 +1,457 @@
+kivy==2.3.1
+setuptools==75.8.0
+cffi==1.17.1
+cryptography==3.3.2
+pyrebase4==4.8.0
+filetype==1.2.0
+urllib3==1.26.20
+oauth2client==4.1.3
+httplib2==0.22.0
+pyparsing==3.2.1
+pyasn1==0.6.1
+pyasn1_modules==0.4.1
+rsa==4.9
+gcloud==0.18.3
+googleapis-common-protos==1.66.0
+protobuf==5.29.3
+requests-toolbelt==0.10.1
+python-jwt==4.1.0
+jwcrypto==1.4.2
+pycparser==2.22
+deprecated==1.2.16
+wrapt==1.17.2
+pycryptodome==3.21.0
+cython==0.29.33
+buildozer
+
+
+certifi                  2024.12.14
+cffi                     1.17.1
+charset-normalizer       3.4.1
+cryptography             3.3.2
+Deprecated               1.2.18
+docutils                 0.21.2
+filetype                 1.2.0
+gcloud                   0.18.3
+googleapis-common-protos 1.66.0
+httplib2                 0.22.0
+idna                     3.10
+jwcrypto                 1.4.2
+Kivy                     2.3.1
+Kivy-Garden              0.1.5
+oauth2client             4.1.3
+pip                      24.3.1
+protobuf                 5.29.3
+pyasn1                   0.6.1
+pyasn1_modules           0.4.1
+pycparser                2.22
+pycryptodome             3.21.0
+Pygments                 2.19.1
+pyparsing                3.2.1
+Pyrebase4                4.8.0
+python-jwt               4.1.0
+requests                 2.32.3
+requests-toolbelt        0.10.1
+rsa                      4.9
+setuptools               75.8.0
+six                      1.17.0
+urllib3                  1.26.20
+wheel                    0.45.1
+wrapt                    1.17.2
+
+
+
+
+
+certifi                  2024.12.14
+cffi                     1.15.1		X
+charset-normalizer       3.4.1
+cryptography             36.0.1		X
+docutils                 0.21.2
+filetype                 1.2.0		X
+gcloud                   0.18.3		X
+googleapis-common-protos 1.66.0		X
+httplib2                 0.22.0		X
+idna                     3.10
+jwcrypto                 1.5.6		X
+Kivy                     2.3.1		X
+Kivy-Garden              0.1.5
+oauth2client             4.1.3		X
+pip                      24.3.1
+protobuf                 5.29.3		X
+pyasn1                   0.6.1		X
+pyasn1_modules           0.4.1		X
+pycparser                2.22
+pycryptodome             3.21.0
+Pygments                 2.19.1
+pyparsing                3.2.1		X
+Pyrebase4                4.8.0		X
+python-jwt               4.1.0		X
+requests                 2.32.3
+requests-toolbelt        0.10.1		X
+rsa                      4.9		X
+semantic-version         2.10.0		X
+setuptools               75.8.0		X
+setuptools-rust          1.5.2		X
+six                      1.17.0
+typing_extensions        4.12.2
+urllib3                  1.26.20	X
+wheel                    0.45.1
+cryptography==3.3.2
+
+
+$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-readelf -d /Users/tobiaslindell/appStuff/.buildozer/android/platform/build-arm64-v8a/build/other_builds/cryptography/arm64-v8a__ndk_target_33/cryptography/build/lib.macosx-14.4-arm64-cpython-311/cryptography/hazmat/bindings/_rust.abi3.so				
+$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-readelf -d /Users/tobiaslindell/appStuff/.buildozer/android/platform/build-arm64-v8a/build/python-installs/convokeeper/arm64-v8a/cryptography/hazmat/bindings/_rust.abi3.so
+$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-readelf -d /Users/tobiaslindell/appStuff/.buildozer/android/platform/build-arm64-v8a/dists/convokeeper/_python_bundle__arm64-v8a/_python_bundle/site-packages/cryptography/hazmat/bindings/_rust.abi3.so
+
+objdump -x /Users/tobiaslindell/appStuff/.buildozer/android/platform/build-arm64-v8a/dists/convokeeper/_python_bundle__arm64-v8a/_python_bundle/site-packages/cryptography/hazmat/bindings/_rust.abi3.so
+$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-readelf -S /Users/tobiaslindell/appStuff/.buildozer/android/platform/build-arm64-v8a/dists/convokeeper/_python_bundle__arm64-v8a/_python_bundle/site-packages/cryptography/hazmat/bindings/_rust.abi3.so
+
+Jira installations ( -m pip list):
+3.9.6	/usr/bin/python3	(system Python)
+3.11.5	/usr/local/bin/python3
+3.11.5	/Users/tobiaslindell/.local/share/virtualenvs/	(TEMP ENVIRONMENT)
+3.11.5	/Users/tobiaslindell/appStuff/.buildozer/android/platform/build-arm64-v8a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3	(TEMP ENVIRONMENT)
+
+
+
+/Users/tobiaslindell/appStuff/.buildozer/android/platform/build-arm64-v8a/build/other_builds/cryptography/arm64-v8a__ndk_target_21/cryptography/src/cryptography/hazmat/bindings
+
+/Users/tobiaslindell/appStuff/.buildozer/android/platform/build-arm64-v8a/build/other_builds/cryptography/arm64-v8a__ndk_target_21/cryptography/build/lib.macosx-14.4-arm64-cpython-311/cryptography/hazmat/bindings
+/Users/tobiaslindell/appStuff/.buildozer/android/platform/build-arm64-v8a/dists/convokeeper/_python_bundle__arm64-v8a/_python_bundle/site-packages/cryptography/hazmat/bindings
+/Users/tobiaslindell/appStuff/.buildozer/android/platform/build-arm64-v8a/build/python-installs/convokeeper/arm64-v8a/cryptography/hazmat/bindings
+
+file _rust.abi3.so
+
+
+
+appdirs==1.4.4
+build==1.2.2.post1
+  packaging==24.2
+  pyproject_hooks==1.2.0
+buildozer==1.5.0
+  pexpect==4.9.0
+    ptyprocess==0.7.0
+  sh==1.14.3
+  virtualenv==20.29.1
+    distlib==0.3.9
+    filelock==3.17.0
+    platformdirs==4.3.6
+colorama==0.4.6
+Cython==3.0.11
+Jinja2==3.1.5
+  MarkupSafe==3.0.2
+Kivy==2.3.1
+  docutils==0.21.2
+  filetype==1.2.0
+  Kivy-Garden==0.1.5
+    requests==2.32.3
+      certifi==2024.12.14
+      charset-normalizer==3.4.1
+      idna==3.10
+      urllib3==1.26.20
+  Pygments==2.19.1
+  requests==2.32.3
+    certifi==2024.12.14
+    charset-normalizer==3.4.1
+    idna==3.10
+    urllib3==1.26.20
+pipdeptree==2.24.0
+  packaging==24.2
+  pip==24.3.1
+Pyrebase4==4.8.0
+  gcloud==0.18.3
+    googleapis-common-protos==1.66.0
+      protobuf==5.29.3
+    httplib2==0.22.0
+      pyparsing==3.2.1
+    oauth2client==4.1.3
+      httplib2==0.22.0
+        pyparsing==3.2.1
+      pyasn1==0.6.1
+      pyasn1_modules==0.4.1
+        pyasn1==0.6.1
+      rsa==4.9
+        pyasn1==0.6.1
+      six==1.17.0
+    protobuf==5.29.3
+    six==1.17.0
+  oauth2client==4.1.3
+    httplib2==0.22.0
+      pyparsing==3.2.1
+    pyasn1==0.6.1
+    pyasn1_modules==0.4.1
+      pyasn1==0.6.1
+    rsa==4.9
+      pyasn1==0.6.1
+    six==1.17.0
+  pycryptodome==3.21.0
+  python-jwt==4.1.0
+    jwcrypto==1.4.2
+      cryptography==3.3.2
+        cffi==1.15.1
+          pycparser==2.22
+        six==1.17.0
+      Deprecated==1.2.16
+        wrapt==1.17.2
+  requests==2.32.3
+    certifi==2024.12.14
+    charset-normalizer==3.4.1
+    idna==3.10
+    urllib3==1.26.20
+  requests-toolbelt==0.10.1
+    requests==2.32.3
+      certifi==2024.12.14
+      charset-normalizer==3.4.1
+      idna==3.10
+      urllib3==1.26.20
+  urllib3==1.26.20
+setuptools-rust==1.5.2
+  semantic-version==2.10.0
+  setuptools==75.8.0
+  typing_extensions==4.12.2
+toml==0.10.2
+wheel==0.45.1
+
+
+
+LATEST VERSIONS
+Package            Version
+------------------ ----------
+buildozer          1.5.0
+certifi            2024.12.14
+cffi               1.17.1
+charset-normalizer 3.4.1
+cryptography       44.0.0
+Cython             3.0.11
+distlib            0.3.9
+docutils           0.21.2
+filelock           3.16.1
+filetype           1.2.0
+idna               3.10
+Kivy               2.3.1
+Kivy-Garden        0.1.5
+pexpect            4.9.0
+pip                24.3.1
+platformdirs       4.3.6
+ptyprocess         0.7.0
+pycparser          2.22
+Pygments           2.19.1
+requests           2.32.3
+semantic-version   2.10.0
+setuptools         75.8.0
+setuptools-rust    1.10.2
+sh                 2.2.1
+urllib3            2.3.0
+virtualenv         20.29.1
+
+
+
+
+tobiaslindell@Tobiass-MacBook-Air ~ % brew list
+==> Formulae
+autoconf		jpeg-turbo		mpfr
+automake		jq				oniguruma
+berkeley-db@5	libffi			openjdk@17
+binutils		libpng			openssl@3
+bzip2			libtiff			pcre2
+ca-certificates	libtool			perl
+cairo			libunistring	pixman
+cmake			libx11			pkgconf
+fontconfig		libxau			portaudio
+freetype		libxcb			pyenv
+gawk			libxdmcp		python-packaging
+gdbm			libxext			python@3.11
+gettext			libxrender		python@3.13
+giflib			little-cms2		readline
+glib			lld				sqlite
+gmp				llvm			xorgproto
+gnu-tar			lz4				xz
+graphite2		lzo				z3
+harfbuzz		m4				zlib
+icu4c@76		mpdecimal		zstd
+
+==> Casks
+
+
+tobiaslindell@Tobiass-MacBook-Air ~ % brew list --versions
+autoconf 2.72
+automake 1.17
+berkeley-db@5 5.3.28_1
+binutils 2.43.1
+bzip2 1.0.8
+ca-certificates 2024-12-31
+cairo 1.18.2
+cmake 3.31.3
+fontconfig 2.15.0
+freetype 2.13.3
+gawk 5.3.1
+gdbm 1.24
+gettext 0.23.1
+giflib 5.2.2
+glib 2.82.4
+gmp 6.3.0
+gnu-tar 1.35
+graphite2 1.3.14
+harfbuzz 10.1.0
+icu4c@76 76.1_1
+jpeg-turbo 3.1.0
+jq 1.7.1
+libffi 3.4.6
+libpng 1.6.44
+libtiff 4.7.0
+libtool 2.5.4
+libunistring 1.3
+libx11 1.8.10
+libxau 1.0.12
+libxcb 1.17.0
+libxdmcp 1.1.5
+libxext 1.3.6
+libxrender 0.9.12
+little-cms2 2.16
+lld 19.1.6
+llvm 19.1.6
+lz4 1.10.0
+lzo 2.10
+m4 1.4.19
+mpdecimal 4.0.0
+mpfr 4.2.1
+oniguruma 6.9.10
+openjdk@17 17.0.13
+openssl@3 3.4.0
+pcre2 10.44
+perl 5.40.1
+pixman 0.44.2
+pkgconf 2.3.0_1
+portaudio 19.7.0
+pyenv 2.5.1
+python-packaging 24.2
+python@3.11 3.11.11
+python@3.13 3.13.1
+readline 8.2.13
+sqlite 3.47.2
+xorgproto 2024.1
+xz 5.6.3
+z3 4.13.4
+zlib 1.3.1
+zstd 1.5.6
+
+
+
+Isntalled by openjdk:
+ca-certificates 2024-12-31
+cairo 1.18.2
+fontconfig 2.16.0
+freetype 2.13.3
+gettext 0.23.1
+giflib 5.2.2
+glib 2.82.4
+graphite2 1.3.14
+harfbuzz 10.2.0
+icu4c@76 76.1_1
+jpeg-turbo 3.1.0
+libpng 1.6.46
+libtiff 4.7.0
+libunistring 1.3
+libx11 1.8.10
+libxau 1.0.12
+libxcb 1.17.0
+libxdmcp 1.1.5
+libxext 1.3.6
+libxrender 0.9.12
+little-cms2 2.16
+lz4 1.10.0
+lzo 2.10
+mpdecimal 4.0.0
+openjdk@17 17.0.14
+openssl@3 3.4.0
+pcre2 10.44
+pixman 0.44.2
+python-packaging 24.2
+python@3.13 3.13.1
+readline 8.2.13
+sqlite 3.48.0
+xorgproto 2024.1
+xz 5.6.4
+zlib 1.3.1
+zstd 1.5.6
+
+
+
+tobiaslindell@Tobiass-MacBook-Air ~ % brew list --versions
+autoconf 2.72
+automake 1.17
+bzip2 1.0.8
+cmake 3.31.5
+libffi 3.4.6
+libtool 2.5.4
+m4 1.4.19
+pkgconf 2.3.0_1
+zlib 1.3.1
+
+tobiaslindell@Tobiass-MacBook-Air ~ % brew list --versions
+autoconf 2.72
+automake 1.17
+binutils 2.43.1
+bzip2 1.0.8
+cmake 3.31.5
+expat 2.6.4
+libffi 3.4.6
+libtool 2.5.4
+lz4 1.10.0
+m4 1.4.19
+pkgconf 2.3.0_1
+xz 5.6.4
+zlib 1.3.1
+zstd 1.5.6
+
+tobiaslindell@Tobiass-MacBook-Air ~ % brew list --versions
+autoconf 2.72
+automake 1.17
+binutils 2.43.1
+bzip2 1.0.8
+	ca-certificates 2024-12-31
+cmake 3.31.5
+expat 2.6.4
+libffi 3.4.6
+libtool 2.5.4
+	llvm 19.1.7
+lz4 1.10.0
+m4 1.4.19
+	mpdecimal 4.0.0
+	openssl@3 3.4.0
+pkgconf 2.3.0_1
+	python@3.13 3.13.1
+	readline 8.2.13
+	sqlite 3.48.0
+xz 5.6.4
+	z3 4.13.4
+zlib 1.3.1
+zstd 1.5.6
+
+
+tobiaslindell@Tobiass-MacBook-Air site-packages % /usr/local/bin/python3 -m pip list
+Package         Version
+--------------- -----------
+appdirs         1.4.4
+build           1.2.2.post1
+certifi         2024.12.14
+cffi            1.17.1
+colorama        0.4.6
+distlib         0.3.9
+filelock        3.16.1
+Jinja2          3.1.5
+MarkupSafe      3.0.2
+packaging       24.2
+pexpect         4.9.0
+pip             24.3.1
+pipenv          2024.4.1
+platformdirs    4.3.6
+ptyprocess      0.7.0
+pycparser       2.22
+pyproject_hooks 1.2.0
+setuptools      75.8.0
+sh              1.14.3
+toml            0.10.2
+virtualenv      20.29.0
+wheel           0.45.1

@@ -1,0 +1,26 @@
+tobiaslindell@Tobiass-MacBook-Air command % brew list --versions
+autoconf 2.72
+automake 1.17
+binutils 2.43.1
+bzip2 1.0.8
+ca-certificates 2024-12-31
+cmake 3.31.5
+expat 2.6.4
+libffi 3.4.6
+libtool 2.5.4
+lld 19.1.7
+llvm 19.1.7
+lz4 1.10.0
+m4 1.4.19
+mpdecimal 4.0.0
+openssl@3 3.4.0
+patchelf 0.18.0
+pkgconf 2.3.0_1
+python@3.13 3.13.1
+readline 8.2.13
+sqlite 3.48.0
+tree 2.2.1
+xz 5.6.4
+z3 4.13.4
+zlib 1.3.1
+zstd 1.5.6
